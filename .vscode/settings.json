@@ -1,0 +1,26 @@
+{
+    "emmet.includeLanguages": { 
+        "erb": "html",
+        "ruby": "html",
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "erb": "html"
+    },
+    "tailwindCSS.experimental.classRegex": [
+        "class: \"|'([^\"|']*)"
+    ],
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "erb"
+    ],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.inlineSuggest.enabled": true,
+
+    "tailwindCSS.emmetCompletions": true
+}
